@@ -177,3 +177,24 @@ body {
 	object-position: center;
 	position: relative;
 }
+
+.material-symbols-outlined {
+	cursor: pointer;
+	user-select: none;
+}
+
+.delete-button {
+	position: absolute;
+	top: 4%;
+	right: 2%;
+	font-size: 1.6rem;
+	color: gainsboro;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 5px;
+}
+
+.delete-button:hover {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.9);
+}
