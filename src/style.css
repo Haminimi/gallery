@@ -198,3 +198,17 @@ body {
 	color: white;
 	background-color: rgba(0, 0, 0, 0.9);
 }
+
+.switch-animation {
+	animation: switch 0.5s linear;
+}
+
+@keyframes switch {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
