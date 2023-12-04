@@ -13,3 +13,53 @@ gitHubIcon.addEventListener('mouseout', () => {
 	gitHubIcon.classList.remove('rotate');
 	gitHubIcon.classList.add('mouseout');
 });
+
+//Subscribe for images update
+subscribe('imagesUpdated', (newImages) => {
+	images = newImages;
+});
+
+//Show image
+let currentIndex = 0;
+let transformValue;
+let previousTransformValue = 0;
+
+export function showImage(index, callingContext) {
+	currentIndex = index;
+	transformValue = `${-index * 100}%`;
+
+	images.forEach((image, i) => {
+		image.style.transform = `translateX(${transformValue})`;
+		const circles = document.querySelectorAll('.nav-circle');
+		if (i === index) {
+			image.classList.add('switch-animation');
+			circles[index].classList.add('active-circle');
+		} else {
+			image.classList.remove('switch-animation');
+		}
+
+		circles.forEach((otherCircle, otherIndex) => {
+			if (otherIndex !== index) {
+				otherCircle.classList.remove('active-circle');
+			}
+		});
+
+		if (callingContext === 'show') {
+			if (
+				parseFloat(transformValue) -
+					parseFloat(previousTransformValue) <=
+					-400 ||
+				parseFloat(transformValue) -
+					parseFloat(previousTransformValue) >=
+					400
+			) {
+				image.style.transitionDuration = '1.5s';
+			} else {
+				image.style.transitionDuration = '0.4s';
+			}
+		} else if (callingContext === 'remove') {
+			image.style.transitionDuration = '0.4s';
+		}
+	});
+	previousTransformValue = transformValue;
+}
