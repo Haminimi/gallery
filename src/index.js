@@ -1,3 +1,12 @@
+import './style.css';
+import { subscribe } from './pubsub';
+import { createCircles } from './createCircles';
+import {
+	createDeleteButtons,
+	addListenersToDeleteButtons,
+} from './createDeleteButtons';
+import { handleImageSelection } from './handleImageSelection';
+
 export let images = document.querySelectorAll('.slide');
 export const left = document.getElementById('left');
 export const right = document.getElementById('right');
