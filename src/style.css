@@ -136,3 +136,33 @@ body {
 		transform: rotate(360deg);
 	}
 }
+
+#right,
+#left {
+	font-size: 2.2rem;
+	position: absolute;
+	top: 50%;
+	color: gainsboro;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
+	cursor: pointer;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+}
+
+#right {
+	right: 5%;
+}
+
+#left {
+	left: 5%;
+}
+
+#right:hover,
+#left:hover {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.9);
+}
