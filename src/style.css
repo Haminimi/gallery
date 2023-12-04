@@ -277,3 +277,23 @@ footer {
 	animation: mouseout 0.5s linear;
 	animation-fill-mode: forwards;
 }
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes mouseout {
+	0% {
+		transform: rotate(360deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
