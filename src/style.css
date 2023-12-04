@@ -254,3 +254,26 @@ body {
 	background-color: rgba(0, 0, 0, 0.9);
 	transition: transform 0.1s ease-in-out;
 }
+
+footer {
+	width: 100%;
+	font-size: 1.9rem;
+	margin-top: -30px;
+	display: flex;
+	justify-content: flex-end;
+	color: rgba(0, 0, 0, 0.7);
+	padding-right: 60px;
+}
+
+.fa-github {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.fa-github.rotate {
+	animation: rotate 0.5s linear infinite;
+}
+
+.fa-github.mouseout {
+	animation: mouseout 0.5s linear;
+	animation-fill-mode: forwards;
+}
