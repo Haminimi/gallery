@@ -5,7 +5,6 @@ module.exports = {
 	entry: "./src/index.js",
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: "Gallery",
 			template: "./src/index.html",
 			favicon: './src/favicon.ico',
 		}),
