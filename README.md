@@ -9,9 +9,9 @@ The [Gallery](https://haminimi.github.io/gallery/) built by [me](https://github.
 - **Responsive Design:** The app provides a consistent user experience and a user-friendly interface across various screen sizes.
 
 **To Do:**
-- [] **Multiple Albums**
-- [] **Drag and Reorder**
-- [] **Take Image With Camera**
+- [] \**Multiple Albums**
+- [] \**Drag and Reorder**
+- [] \**Take Image With Camera**
 ## Tech
 **The project is built with:**
 - HTML
