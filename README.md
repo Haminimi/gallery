@@ -1,6 +1,6 @@
 # Gallery 🌄
 ## Description
-The Gallery app where you can easily add and delete images, switch between them, and jump to any image in the gallery using the navigation bar. The project was inspired by [this assignment](https://www.theodinproject.com/lessons/node-path-javascript-dynamic-user-interface-interactions#image-slider){:target="_blank"} from [The Odin Project](https://www.theodinproject.com/dashboard){:target="_blank"}. Although it's not one of the regular TOP curriculum projects, I treated it as a standard project. The Odin Project provides a high quality web development education maintained by an open source community.
+The Gallery app where you can easily add and delete images, switch between them, and jump to any image in the gallery using the navigation bar. The project was inspired by [this assignment](https://www.theodinproject.com/lessons/node-path-javascript-dynamic-user-interface-interactions#image-slider) from [The Odin Project](https://www.theodinproject.com/dashboard). Although it's not one of the regular TOP curriculum projects, I treated it as a standard project. The Odin Project provides a high quality web development education maintained by an open source community.
 ## Live Preview
 The [Gallery](https://haminimi.github.io/gallery/) built by [me](https://github.com/Haminimi).
 ## Main Features
@@ -9,9 +9,9 @@ The [Gallery](https://haminimi.github.io/gallery/) built by [me](https://github.
 - **Responsive Design:** The app provides a consistent user experience and a user-friendly interface across various screen sizes.
 
 **To Do:**
-- [] \**Multiple Albums**
-- [] \**Drag and Reorder**
-- [] \**Take Image With Camera**
+- [ ] **Multiple Albums**
+- [ ] **Drag and Reorder**
+- [ ] **Take Image With Camera**
 ## Tech
 **The project is built with:**
 - HTML
