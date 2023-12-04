@@ -297,3 +297,56 @@ footer {
 		transform: rotate(0deg);
 	}
 }
+
+@media screen and (min-width: 1800px) {
+	#gallery {
+		width: 70%;
+	}
+
+	:root {
+		font-size: 21px;
+	}
+
+	.nav-circles-container {
+		height: 40px;
+		padding: 20px;
+		gap: 15px;
+	}
+
+	.nav-circle {
+		height: 22px;
+		width: 22px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#gallery {
+		width: 80%;
+	}
+
+	.delete-button {
+		top: 2%;
+	}
+
+	footer {
+		justify-content: center;
+		padding-right: 0px;
+		margin-top: 0px;
+		margin-bottom: -10px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#gallery {
+		width: 90%;
+		height: 75%;
+	}
+
+	.delete-button {
+		top: 1%;
+	}
+
+	.empty-gallery {
+		font-size: 1.5rem;
+	}
+}
