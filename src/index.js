@@ -73,3 +73,30 @@ function showPrevImage() {
 	currentIndex = (currentIndex - 1 + images.length) % images.length;
 	showImage(currentIndex, 'show');
 }
+
+function addListenersForLeftAndRight() {
+	left.addEventListener('click', showPrevImage);
+	right.addEventListener('click', showNextImage);
+}
+
+function addListenersForImageInput() {
+	addImage.addEventListener('input', (event) => {
+		handleImageSelection(event);
+		createDeleteButtons();
+		addListenersToDeleteButtons();
+	});
+}
+
+function addDeleteButtons() {
+	createDeleteButtons();
+	addListenersToDeleteButtons();
+}
+
+function initialize() {
+	createCircles();
+	addDeleteButtons();
+	addListenersForLeftAndRight();
+	addListenersForImageInput();
+}
+
+initialize();
