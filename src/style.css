@@ -84,3 +84,26 @@ body {
 #add-image-button:hover {
 	background-color: rgba(0, 0, 0, 0.9);
 }
+
+#gallery {
+	height: 70%;
+	width: 65%;
+	border-radius: 10px;
+	border: 5px solid;
+	border-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	background-color: transparent;
+}
+
+.empty-gallery {
+	height: 100%;
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+}
