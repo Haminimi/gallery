@@ -166,3 +166,14 @@ body {
 	color: white;
 	background-color: rgba(0, 0, 0, 0.9);
 }
+
+.slide {
+	width: 100%;
+	height: 100%;
+	flex: 0 0 100%;
+	transition: transform 0.4s linear;
+	border-radius: 5px;
+	display: grid;
+	object-position: center;
+	position: relative;
+}
