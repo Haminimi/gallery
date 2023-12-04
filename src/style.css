@@ -107,3 +107,32 @@ body {
 	justify-content: center;
 	font-size: 2rem;
 }
+
+.load {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 5px solid white;
+	border-left-color: gainsboro;
+	border-bottom-color: gainsboro;
+	border-right-color: gainsboro;
+	animation: load 1s linear infinite;
+	z-index: 10;
+	margin-left: -17.5px;
+	margin-top: -17.5px;
+}
+
+@keyframes load {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
