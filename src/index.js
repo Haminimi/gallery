@@ -63,3 +63,13 @@ export function showImage(index, callingContext) {
 	});
 	previousTransformValue = transformValue;
 }
+
+function showNextImage() {
+	currentIndex = (currentIndex + 1) % images.length;
+	showImage(currentIndex, 'show');
+}
+
+function showPrevImage() {
+	currentIndex = (currentIndex - 1 + images.length) % images.length;
+	showImage(currentIndex, 'show');
+}
