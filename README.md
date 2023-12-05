@@ -55,4 +55,4 @@ Currently, the app isn't actually a gallery, but rather an image carousel or jus
 - [LeetCode](https://leetcode.com/Haminimi/)
 - Email: haminimi.dev@gmail.com
 - LinkedIn: A profile will be available at the time I am job ready
-## Happy coding!
+## Happy Coding!
