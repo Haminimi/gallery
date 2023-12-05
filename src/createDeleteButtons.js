@@ -57,7 +57,9 @@ export function addListenersToDeleteButtons() {
 			if (images.length === 0) {
 				const emptyGallery = document.createElement('div');
 				emptyGallery.classList.add('empty-gallery');
-				emptyGallery.textContent = 'Your gallery is empty 😭';
+				/* emptyGallery.textContent = 'Your gallery is empty 😭'; */
+				emptyGallery.textContent =
+					' Houston, we have an empty gallery! 🚀';
 				gallery.appendChild(emptyGallery);
 				gallery.removeChild(circlesParent);
 				gallery.removeChild(left);
