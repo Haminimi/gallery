@@ -1,8 +1,9 @@
 # Gallery 🌄
+![Screenshot of the Gallery app.](/screenshot.png)
 ## Description
 The Gallery app where you can easily add and delete images, switch between them, and jump to any image in the gallery using the navigation bar. The project was inspired by [this assignment](https://www.theodinproject.com/lessons/node-path-javascript-dynamic-user-interface-interactions#image-slider) from [The Odin Project](https://www.theodinproject.com/dashboard). Although it's not one of the regular TOP curriculum projects, I treated it as a standard project. The Odin Project provides a high quality web development education maintained by an open source community.
 ## Live Preview
-The [Gallery](https://haminimi.github.io/gallery/) built by [me](https://github.com/Haminimi).
+The [Gallery](https://haminimi.github.io/gallery/).
 ## Main Features
 - **Add and Delete:** Easily add and delete images in the gallery.
 - **Navigation Bar:** Jump to any image in the gallery without the need to manually switch using the previous and next buttons.
@@ -19,14 +20,9 @@ The [Gallery](https://haminimi.github.io/gallery/) built by [me](https://github.
 - Vanilla CSS
 
 **Tools**
-- Git
-- npm
-- Webpack
 - Visual Studio Code
-
-**Linter and code formatter**
-- ESLint
-- Prettier
+- Git
+- Webpack
 ## Covered Topics
 **This section mentions the main topics covered during project work and prior lessons**
 - Linting / ESLint
@@ -54,5 +50,4 @@ Currently, the app isn't actually a gallery, but rather an image carousel or jus
 - [Exercism](https://exercism.org/profiles/Haminimi)
 - [LeetCode](https://leetcode.com/Haminimi/)
 - Email: haminimi.dev@gmail.com
-- LinkedIn: A profile will be available at the time I am job ready
 ## Happy Coding!
